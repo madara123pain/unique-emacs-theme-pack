@@ -93,9 +93,12 @@ if you prefer use-package:
 #### Manual Installation:
 
 Clone the repository:
-```git clone https://github.com/madara123pain/unique-emacs-theme-pack.git
+```
+git clone https://github.com/madara123pain/unique-emacs-theme-pack.git
 ```
 
 Add the Theme Directory to Emacs:
-```(add-to-list 'custom-theme-load-path "~/path/to/unique-emacs-theme-pack/")
-(load-theme 'THEME-NAME t)```
+```
+(add-to-list 'custom-theme-load-path "~/path/to/unique-emacs-theme-pack/")
+(load-theme 'THEME-NAME t)
+```
