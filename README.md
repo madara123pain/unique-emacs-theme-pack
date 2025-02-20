@@ -68,7 +68,7 @@
 
 ## Installation Instructions:
 
-#### Install via MELPA:
+### Install via MELPA:
 Using package.el:
 
 ```;; Ensure MELPA is in your package archives
@@ -90,7 +90,7 @@ if you prefer use-package:
   (load-theme 'THEME-NAME t))
 ```
 
-#### Manual Installation:
+### Manual Installation:
 
 Clone the repository:
 ```
