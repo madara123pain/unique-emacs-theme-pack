@@ -1,5 +1,5 @@
 <details>
-<summary>Screenshots</summary>
+_**<summary>Screenshots</summary>**_
 
 ### Berry theme
 *This screenshot shows the Berry theme applied in Emacs with a Python file open, demonstrating syntax highlighting and a clean UI.*
@@ -102,3 +102,6 @@ Add the Theme Directory to Emacs:
 (add-to-list 'custom-theme-load-path "~/path/to/unique-emacs-theme-pack/")
 (load-theme 'THEME-NAME t)
 ```
+
+## 📢 Feedback & Improvements:
+If you encounter any issues, such as color inconsistencies or syntax highlighting problems, feel free to open a pull request. I'll review and fix them as soon as I get time, and the updates will be included in the next release
