@@ -64,4 +64,35 @@
 
 ![Spider Man Theme Screenshot 2](screenshots/spider-man-theme-1.png)  
 
+## Installation Instructions:
 
+#### Install via MELPA:
+Using package.el:
+
+```;; Ensure MELPA is in your package archives
+(require 'package)
+(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
+(package-initialize)
+
+;; Install the theme (replace THEME-NAME with your preferred theme)
+M-x package-install RET THEME-NAME RET
+
+;; Enable the theme
+(load-theme 'THEME-NAME t)
+```
+
+if you prefer use-package:
+```(use-package THEME-NAME
+  :ensure t
+  :config
+  (load-theme 'THEME-NAME t))
+```
+
+#### Manual Installation:
+
+Clone the repository:
+```git clone https://github.com/madara123pain/unique-emacs-theme-pack.git```
+
+Add the Theme Directory to Emacs:
+```(add-to-list 'custom-theme-load-path "~/path/to/unique-emacs-theme-pack/")
+(load-theme 'THEME-NAME t)```
