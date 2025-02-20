@@ -1,4 +1,5 @@
-## Screenshots
+<details>
+<summary>Screenshots</summary>
 
 ### Berry theme
 *This screenshot shows the Berry theme applied in Emacs with a Python file open, demonstrating syntax highlighting and a clean UI.*
@@ -63,6 +64,7 @@
 *A simple screenshot showcasing the Solarized Gruvbox theme with minibuffer.*
 
 ![Spider Man Theme Screenshot 2](screenshots/spider-man-theme-1.png)  
+</details>
 
 ## Installation Instructions:
 
@@ -91,7 +93,8 @@ if you prefer use-package:
 #### Manual Installation:
 
 Clone the repository:
-```git clone https://github.com/madara123pain/unique-emacs-theme-pack.git```
+```git clone https://github.com/madara123pain/unique-emacs-theme-pack.git
+```
 
 Add the Theme Directory to Emacs:
 ```(add-to-list 'custom-theme-load-path "~/path/to/unique-emacs-theme-pack/")
