@@ -61,7 +61,7 @@ _**<summary>Screenshots</summary>**_
 ### Spider Man Theme
 ![Spider Man Theme Screenshot 1](screenshots/spider-man-theme.png)  
 
-*A simple screenshot showcasing the Solarized Gruvbox theme with minibuffer.*
+*A simple screenshot showcasing the Spider Man theme with minibuffer.*
 
 ![Spider Man Theme Screenshot 2](screenshots/spider-man-theme-1.png)  
 </details>
@@ -104,4 +104,4 @@ Add the Theme Directory to Emacs:
 ```
 
 ## 📢 Feedback & Improvements:
-If you encounter any issues, such as color inconsistencies or syntax highlighting problems, feel free to open a pull request. I'll review and fix them as soon as I get time, and the updates will be included in the next release
+If you encounter any issues, such as color inconsistencies or syntax highlighting problems, feel free to open a pull request. I'll review and fix them as soon as I get time, and the updates will be included in the next release.
