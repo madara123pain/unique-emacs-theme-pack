@@ -112,3 +112,4 @@
 (provide-theme 'spider-man)
 
 ;;; spider-man-theme.el ends here
+

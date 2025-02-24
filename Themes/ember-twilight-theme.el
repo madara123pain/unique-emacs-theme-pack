@@ -1,27 +1,31 @@
-;;; ember-twilight-theme.el --- Ember Twilight theme
+;;; ember-twilight-theme.el --- Ember Twilight theme -*- lexical-binding: t; -*-
 
-;; Copyright (C) 2025  Omer Arif
+;; Copyright (C) 2025 Omer Arif
 
-;; Author: Omer Arif <omerarifkhan.offcial123@gmail.com>
-;; Version: 0.01
-;; URL: https://github.com/madara123pain/unique-emacs-theme-pack
+;; Author: Omer Arif
+;; Maintainer: Omer Arif
+;; Version: 1.0
+;; Package-Requires: ((emacs "24.1"))
+;; Homepage: https://github.com/madara123pain/unique-emacs-theme-pack
+;; Keywords: faces, theme, ember, twilight, dark
 
-;; This program is free software; you can redistribute it and/or modify
+;; This program is free software: you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
 ;; the Free Software Foundation, either version 3 of the License, or
 ;; (at your option) any later version.
 
 ;; This program is distributed in the hope that it will be useful,
 ;; but WITHOUT ANY WARRANTY; without even the implied warranty of
-;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 ;; GNU General Public License for more details.
 
 ;; You should have received a copy of the GNU General Public License
-;; along with this program.  If not, see <http://www.gnu.org/licenses/>.
+;; along with this program. If not, see <https://www.gnu.org/licenses/>.
 
 ;;; Commentary:
 ;;
-;; A custom theme with a specific color palette
+;; Ember Twilight is a dark and warm Emacs theme featuring a blend of ember-toned
+;; hues, offering a cozy and visually distinct coding experience.
 
 ;;; Code:
 

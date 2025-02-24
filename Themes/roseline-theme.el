@@ -1,10 +1,12 @@
-;;; roseline-theme.el --- Roseline theme
+;;; roseline-theme.el --- Roseline theme  -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2025  Omer Arif
 
 ;; Author: Omer Arif <omerarifkhan.official123@gmail.com>
 ;; Version: 1.0
 ;; URL: https://github.com/madara123pain/unique-emacs-theme-pack
+;; Package-Requires: ((emacs "24.1"))
+;; Keywords: faces, theme, custom
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
