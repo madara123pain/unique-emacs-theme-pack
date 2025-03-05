@@ -1,33 +1,37 @@
-;;; solarized-gruvbox-theme.el --- Solarized Gruvbox theme
+;;; solarized-gruvbox-theme.el --- Solarized Gruvbox theme -*- lexical-binding: t; -*-
 
-;; Copyright (C) 2025 by Your Name
+;; Copyright (C) 2025 by Omer Arif
 
-;; Author: Your Name <you@example.com>
-;; URL: https://github.com/yourusername/solarized-gruvbox-theme
-;; Version: 0.1
+;; Author: Omer Arif
+;; Maintainer: Omer Arif
+;; Version: 1.0
+;; Package-Requires: ((emacs "24.1"))
+;; Homepage: https://github.com/madara123pain/unique-emacs-theme-pack
+;; Keywords: faces, theme, solarized, gruvbox, dark
 
-;; This program is free software; you can redistribute it and/or modify
+;; This program is free software: you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
 ;; the Free Software Foundation, either version 3 of the License, or
 ;; (at your option) any later version.
 
 ;; This program is distributed in the hope that it will be useful,
 ;; but WITHOUT ANY WARRANTY; without even the implied warranty of
-;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 ;; GNU General Public License for more details.
 
 ;; You should have received a copy of the GNU General Public License
-;; along with this program.  If not, see <http://www.gnu.org/licenses/>.
+;; along with this program. If not, see <https://www.gnu.org/licenses/>.
 
 ;;; Commentary:
 ;;
-;; A theme combining Solarized Dark background with Gruvbox colors.
-;; This theme provides a dark yet vibrant coding environment.
+;; Solarized Gruvbox is a theme that blends the soft contrast of Solarized Dark
+;; with the rich colors of Gruvbox. Ideal for developers who prefer a dark but 
+;; vibrant coding environment.
 
 ;;; Code:
 
 (deftheme solarized-gruvbox
-  "Solarized Gruvbox theme")
+  "Solarized Gruvbox theme.")
 
 (let ((class '((class color) (min-colors 89)))
       (solarized-dark-bg "#002b36")
@@ -51,7 +55,7 @@
    ;; Highlighting faces
    `(fringe ((,class (:background ,solarized-dark-bg))))
    `(highlight ((,class (:background ,gruvbox-gray))))
-   `(region ((,class (:background ,gruvbox-blue))))
+   `(region ((,class (:background ,gruvbox-blue :foreground ,gruvbox-fg))))
    `(secondary-selection ((,class (:background ,gruvbox-gray))))
    `(isearch ((,class (:background ,gruvbox-yellow :foreground ,solarized-dark-bg))))
    `(lazy-highlight ((,class (:background ,gruvbox-green :foreground ,solarized-dark-bg))))
@@ -75,4 +79,3 @@
 (provide-theme 'solarized-gruvbox)
 
 ;;; solarized-gruvbox-theme.el ends here
-

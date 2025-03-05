@@ -23,7 +23,7 @@
 
 ;;; Commentary:
 ;;
-;; A custom theme with a specific color palette
+;; A custom theme with a specific color palette.
 
 ;;; Code:
 
